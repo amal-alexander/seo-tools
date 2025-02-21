@@ -1,6 +1,23 @@
-# Ignore Python compiled files
-__pycache__/
-*.pyc
+# Ignore .env files
+.env
 
 # Ignore virtual environment
-myenv/
+venv/
+.venv/
+env/
+
+# Ignore cache files
+__pycache__/
+.pytest_cache/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore build and distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore large files
+large_dataset.csv
